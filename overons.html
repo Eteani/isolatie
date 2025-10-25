@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isolatie Service Nederland</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="menu-container">
+    <div class="logo">
+      <img src="./assets/Isolatie Service Nederland Logo.png" alt="logo">
+    </div>
+
+    <!-- ✅ Toegevoegd: hamburgerknop -->
+    <button class="menu-toggle" aria-label="Menu openen">
+      <i class="fa fa-bars"></i>
+    </button>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="overons.html">Over ons</a></li>
+      <li><a href="projecten.html">Projecten</a></li>
+      <li><a href="vacatures.html">Vacatures</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <h2>Isolatie Service Nederland</h2>
+  <h3 style="text-align: center;">specialist in kruipruimte-isolatie met EPS+++ parels</h3>
+
+  <div class="main-para2">
+    <b style="font-size: 22px;">Isolatie Service Nederland – specialist in kruipruimte-isolatie met EPS+++ parels</b><br>
+    <p style="font-size: 18px;">
+      Bij Isolatie Service Nederland zetten we ons elke dag in om woningen in Nederland comfortabeler, energiezuiniger en gezonder te maken.<br>
+      Onze specialiteit? Het isoleren van kruipruimtes met hoogwaardige EPS+++ parels – een innovatieve en duurzame isolatiemethode die direct merkbaar verschil maakt in wooncomfort én energiebesparing.
+    </p><br>
+
+    <b style="font-size: 22px;">Waarom kiezen voor Isolatie Service Nederland?<br></b>
+    <div class="wki-card">
+      <ol>
+        <li>✅ Ervaren specialisten – Onze vakmensen hebben jarenlange ervaring in het isoleren van kruipruimtes, vloeren, muren en daken.</li><br>
+        <li>✅ Kwaliteit &amp; zekerheid – Wij werken uitsluitend met EPS+++ parels, een gecertificeerd isolatiemateriaal met een hoge isolatiewaarde, vochtwerende eigenschappen en een lange levensduur.</li><br>
+        <li>✅ Duurzaam &amp; milieuvriendelijk – EPS+++ parels zijn 100% recyclebaar en zorgen voor een blijvende energiebesparing.</li><br>
+        <li>✅ Heldere werkwijze – Van inspectie tot oplevering: wij communiceren transparant en leveren wat we beloven.</li><br>
+        <li>✅ Snelle uitvoering – In de meeste gevallen is uw kruipruimte binnen één dag volledig geïsoleerd.</li><br>
+      </ol>
+    </div>
+
+    <b style="font-size: 22px;">Onze EPS+++ parels</b><br>
+    <p style="font-size: 18px;">
+      De EPS+++ parels vormen een isolerende laag onder de vloer die kou en vocht vanuit de kruipruimte tegenhoudt. Hierdoor stijgt de vloertemperatuur, vermindert tocht en voelt uw woning direct comfortabeler aan. Bovendien draagt deze isolatie bij aan een lagere CO₂-uitstoot en een beter energielabel.
+    </p><br><br>
+
+    <b style="font-size: 22px;">Onze belofte</b><br>
+    <p style="font-size: 18px;">
+      Bij Isolatie Service Nederland staan kwaliteit, betrouwbaarheid en service centraal.<br>
+      Wij behandelen elke woning alsof het onze eigen woning is.
+    </p><br>
+  </div>
+
+  <div class="folder">
+    <img src="./assets/Folder.jpg" alt="Folder afbeelding">
+  </div>
+
+  <footer class="footer">
+    <div class="footer-logo">
+      <i class="fa fa-map-marker"></i> Wateringweg 1 - B19 2091 EK Haarlem
+      <i class="fa fa-phone"></i> 085 - 123456
+      <i class="fa fa-envelope"></i> Info@isolatieservicenederlandbv.nl
+    </div>
+    <div class="footer-social">
+    </div>
+  </footer>
+
+  <!-- ✅ Toegevoegd: werkend hamburger-script -->
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.menu-container ul');
+    const icon = toggle.querySelector('i');
+
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('active');
+      icon.classList.toggle('fa-bars');
+      icon.classList.toggle('fa-times');
+    });
+  </script>
+</body>
+</html>
