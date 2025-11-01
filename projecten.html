@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b117cbf832.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="./assets/faviconfinal.png">
+    <title>Isolatie Service Nederland</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="menu-container">
+    <div class="logo">
+      <a href="index.html">
+        <img src="./assets/Isolatie Service Nederland Logo.png" alt="logo">
+        </a>
+    </div>
+    <!-- ✅ Toegevoegd: hamburgerknop -->
+    <button class="menu-toggle" aria-label="Menu openen">
+      <i class="fa fa-bars"></i>
+    </button>
+
+    <ul>
+      <div class="header-socials" style="color: rgb(8, 8, 8); width: 200px; text-align: center; font-size: 25px;">
+        <div class="header-social-instagram" style="color: rgb(235, 70, 193); transition: transform .2s">
+          <a href="./index.html" style="color: rgb(235, 70, 193);">
+      <i class="fa-brands fa-instagram"></i>
+      </a>
+      </div>
+      <div class="header-social-facebook" style="color: rgb(56, 88, 156); transition: transform .2s">
+        <a href="./index.html"style="color: rgb(56, 88, 156);">
+    <i class="fa-brands fa-facebook"></i>
+    </a>
+    </div>
+    <div class="header-social-tiktok" style="color: black; transition: transform .2s" >
+      <a href="https://www.tiktok.com/@isolatieservicenederland?lang=nl-NL" style="color: black; ">
+    <i class="fa-brands fa-tiktok"></i>
+    </a>
+    </div>
+    </div>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="overons.html">Over ons</a></li>
+      <li><a href="projecten.html">Projecten</a></li>
+      <li><a href="vacatures.html">Vacatures</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <div class="projecten-pagina">
+    <h2>Nog geen projecten Toegevoegd</h2>
+  </div>
+
+  <footer class="footer">
+  <div class="footer-logo"><i class="fa-solid fa-location-dot"></i>Wateringweg 1 - B19 2091 EK Haarlem
+<i class="fa-solid fa-phone"></i>085 - 0486281 <i class="fa-solid fa-envelope"></i>Info@isolatieservicenederlandbv.nl</div>
+  <!--<nav class="footer-nav">
+    <a href="#">Home</a>
+    <a href="#">Over</a>
+    <a href="#">Contact</a>
+  </nav>-->
+  <div class="footer-social">
+    <div class="header-social-instagram" style="color: rgb(235, 70, 193);">
+      <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="header-social-facebook" style="color: rgb(56, 88, 156);">
+    <i class="fa-brands fa-facebook"></i>
+    </div>
+    <div class="header-social-tiktok" style="color: black;">
+      <a href="https://www.tiktok.com/@isolatieservicenederland?lang=nl-NL">
+    <i class="fa-brands fa-tiktok"></i>
+    </a>
+    </div>
+  </div>
+</footer>
+<!-- ✅ Toegevoegd: werkend hamburger-script -->
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.menu-container ul');
+    const icon = toggle.querySelector('i');
+
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('active');
+      icon.classList.toggle('fa-bars');
+      icon.classList.toggle('fa-times');
+    });
+  </script>
+</body>
+</html>
